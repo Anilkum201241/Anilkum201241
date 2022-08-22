@@ -1,0 +1,192 @@
+<div class="poup-login-destop js-poup-login-destop">
+  <div class="form-message form-message--success reset-success success" style="display:none;" id="ResetSuccess" tabindex="-1">
+    {% include 'tick' %}
+    <h2>{{ 'Login.Success.Title' | t: Title }}</h2>
+    <p>{{ 'Login.Success.sub_title' | t: sub_title }}</p>
+    <span class="btn-new okay_now">{{ 'Login.Success.Button' | t: Button }}</span>
+  </div>
+  
+  <div id="CustomerLoginForm" class="login-card form-vertical">
+    {% form 'customer_login', return_to: routes.root_url %}
+    <div class="head_login">
+      <h1 class="login-heading">{{ 'Login.Title.title' | t: title }}</h1>
+      <h3 class="login-heading">{{ 'Login.Title.subtext_html' | t: subtext_html }}</h3>
+    </div>
+    <div class="floating-label"> 
+      <label for="login_email">{{ 'Login.Fields.email' | t: email }}</label>
+      <input
+             id="login_email"
+             type="email"
+             name="customer[email]"
+             placeholder="e.g maria@gmail.com"
+             data-rule="required|email"
+             {%- if form.errors contains 'form' -%}
+             class="input--error"
+             aria-invalid="true"
+             {%- endif -%}
+             />
+      {%- if form.errors contains 'form' -%}
+      <div id="errors" class="errors">
+        <ul>
+          <li>
+          {% if request.locale.iso_code == 'el' %}
+          	Ο κωδικός πρόσβασης ή το όνομα χρήστη δεν ταιριάζει με τις πληροφορίες που έχετε δώσει. Παρακαλώ προαπσθήστε ξανά.
+          {% else %}
+          	Password or username does not match the information you have given. Please try again.
+          {% endif %}
+          </li>
+        </ul>
+      </div>
+      {%- endif -%}
+	</div>
+    <div class="floating-label">
+      <label for="login_password">{{ 'Login.Fields.password' | t: password }}</label>
+      <div class="input_cover">
+        <input
+               id="login_password"
+               type="password"
+               name="customer[password]"
+               {%- if form.errors contains 'form' -%}
+               class="input--error"
+               {%- endif -%}
+               placeholder="{{ 'Login.Password_placeholder.placeholder' | t: placeholder }}"
+               data-rule="required"
+               -="" if="" form.errors="" contains="" 'form' -=''
+               aria-invalid="true"
+               -="" endif="" -=""%}
+               />
+        <span toggle="#password-field" class="fa fa-fw fa-eye field-icon toggle-password"></span>
+      </div>
+      {%- if form.errors contains 'form' -%}
+      <div id="errors" class="errors">
+        <ul>
+          <li>
+          {% if request.locale.iso_code == 'el' %}
+          	Ο κωδικός πρόσβασης ή το όνομα χρήστη δεν ταιριάζει με τις πληροφορίες που έχετε δώσει. Παρακαλώ προαπσθήστε ξανά.
+          {% else %}
+          	Password or username does not match the information you have given. Please try again.
+          {% endif %}
+          </li>
+        </ul>
+      </div>
+      {%- endif -%}
+    </div>
+    <div class="error-container desk-btn">
+      <button class="forgot-pwd" type="button">
+        <a href="#recover" id="RecoverPassword" data-image-link rel="modal:open"><span>{{ 'Login.Links.forgot' | t: forgot }}</span></a>
+      </button>
+    </div>
+    <div class="error-container mob-btn">
+      {{ form.errors | default_errors }}
+      <div class="login_state">
+        <button class="forgot-pwd" type="button">
+          <a href="#recover" id="RecoverPassword" data-image-link rel="modal:open"><span>{{ 'Login.Links.forgot' | t: forgot }}</span></a>
+        </button>
+        <div class="check-row check-row-signed red">
+          <label class="customcheck rounded">
+            <input type="checkbox"/>
+            <span class="checkmark"></span>
+          </label>
+          <span class="bold"> {{ 'Login.Links.keep_signed' | t: keep_signed }}</span>
+        </div>
+      </div>
+    </div>
+    <div name="hiko-container"></div>
+    <div class=" social_button desk-btn">
+      <a href="javascript:;" id="googlesignupbutton">
+        <img class="lozad" data-src="{{ 'google-icon.png' | asset_url }}"> Sign in with Google
+      </a>
+      <span class="or_text">Or</span>
+      <a href="javascript:;" onclick="fb_login_one();" class="facebook bt" data-image-link="" rel="modal:open">
+        <img class="lozad" data-src="{{ 'facebook-icon.png' | asset_url }}"> Sign in with Facebook
+      </a>
+    </div>
+
+    <div class="social_button mob-btn">
+      <a href="javascript:;" onclick="fb_login_one();" class="facebook bt" data-image-link="" rel="modal:open"><img class="lozad" data-src="{{ 'facebook-icon.png' | asset_url }}"></a>
+      <span class="or_text">
+        {{ 'Login.Title.continue_with_text' | t: continue_with_text }}<!--Or Continue with-->
+      </span> 
+      <a href="javascript:;" class="google bt" id="googlesignupbuttonmobile"><img class="lozad" data-src="{{ 'google-icon.png' | asset_url }}"></a>
+    </div>
+    
+    {% include 'facebook_popup' %}
+    <div class="login_state desk-btn">
+      <div class="check-row check-row-signed">
+        <label class="customcheck rounded">
+          <input type="checkbox"/>
+          <span class="checkmark"></span>
+        </label>
+        <span class="bold"> {{ 'Login.Links.keep_signed' | t: keep_signed }}</span>
+      </div>
+      <div class="sign-up-text">
+        {{ 'Login.Links.signup' | t: signup }} <a href="{% if request.locale.iso_code == 'en' %}/account/register{% else %}/el/account/register{% endif %}"> {{ 'Login.Links.signup_link' | t: signup_link }}</a>
+      </div>
+    </div>
+    <div class="login-prime-checker">
+      <a href="javascript:void(0);" class="btn-rounded-blue btn-login">{{ 'Login.Buttons.sign_in' | t: sign_in }}</a>
+      <input style="display:none;" type="submit" value="{{ 'Login.Buttons.sign_in' | t: sign_in }}" />      
+    </div>
+    <div class="sign-up-text mob-btn">
+      {{ 'Login.Links.signup' | t: signup }} <a href="{% if request.locale.iso_code == 'en' %}/account/register{% else %}/el/account/register{% endif %}"> {{ 'Login.Links.signup_link' | t: signup_link }}</a>
+    </div>
+    {% endform %}
+  </div>
+  
+  <div id="RecoverPasswordForm" class="hide recover_form">
+    <div class="text-center heading">
+      <h2 id="RecoverHeading">{{ 'Login.Reset_Passoword.Title' | t: Title }}</h2>
+      <p>{{ 'Login.Reset_Passoword.sub_title' | t: sub_title }}</p>
+    </div>
+    <div class="form-vertical">
+      {% form 'recover_customer_password', id:"resetPassword" %}
+      {{ form.errors | default_errors }}
+      {% if form.posted_successfully? %}
+      	{% assign reset_success = true %}
+      {% endif %}
+      <div class="rec_cover">
+        <label for="RecoverEmail">Email Address</label>
+        <input
+               type="email"
+               value=""
+               name="email"
+               id="RecoverEmail"
+               class="input-full{% if form.errors %} input--error{% endif %}"
+               autocorrect="off"
+               autocapitalize="off"
+               {% if form.errors %}
+               aria-invalid="true"
+               aria-describedby="RecoverEmail-email-error"
+               {%- endif -%}
+               >
+      	<span id="RecoverEmail-email-error" class="input-error-message" style="display:none;">
+          <span>Email User was not found in our database. Please try again!</span>
+        </span>
+      </div>
+      <div class="text-center">
+        <a href="javascript:void(0);" class="btn btn-new disabled">{{ 'Login.Reset_Passoword.Reset_Password' | t: Reset_Password }}</a>
+        <input type="submit" style="display:none;" value="submit">
+        <a href="#LoginHeading" id="HideRecoverPasswordLink" class="cancle">{{ 'Login.Reset_Passoword.Never_Mind' | t: Never_Mind }}</a>
+      </div>
+      {% endform %}
+    </div>
+  </div>
+  
+  <div class="checkuser">
+    <div id="checkuserModal" class="checkuser-modal" style="display: none;">
+      <div class="checkuser-items">
+        <div class="alert-icon">
+          <img src="{{ 'alert.png' | asset_url }}">
+          <h1>Important!</h1>
+        </div>
+        <div class="content">
+          <p class="getDidata">It seems you have already deleted your Korres Circle account, please contact contact@korres.com or 2130188800 for further information.</p>
+          <div class="button">
+            <button id="checkuserclose" onclick="closeUsrFunction()"> I Understand </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{{ "login.js" | asset_url | script_tag }}
