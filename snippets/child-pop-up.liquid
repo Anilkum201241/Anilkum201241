@@ -1,0 +1,22 @@
+<div class="container-child-popup jquery-modal blocker current">
+<div class=" modal" {% if template contains 'product'%}style="display:inline-block"{% endif %}> 
+
+  <div class="prev_url">
+    <a href="#">
+    <img src="https://cdn.shopify.com/s/files/1/0515/5785/9489/t/195/assets/close.png?v=1656328451">
+    </a>
+  </div>
+  <div class="content1">
+  {% if request.locale.iso_code == 'el'%}
+  	   {{prodDescription[25]}}
+  {% else %}
+  	{{prodDescription[26]}}   
+  {% endif %}
+  </div>
+  <div class="bottom-btn"><button class="btn accept">{% if request.locale.iso_code == 'en' %}I Understand{% else %}Κατάλαβα{% endif %}</button></div>
+  
+  </div>
+</div>
+<style>
+ .collection .container-child-popup.jquery-modal.blocker.current{display:none}
+</style>

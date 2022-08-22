@@ -1,0 +1,825 @@
+/* greek */
+@font-face {
+  font-family: 'Roboto Mono';
+  font-style: italic;
+  font-weight: 100;
+  font-display: swap;
+  src: url('//cdn.shopify.com/s/files/1/0515/5785/9489/t/105/assets/Roboto-Mono-Italic-Greek.woff2?v=69783286364928721491657269300') format('woff2');
+  unicode-range: U+0370-03FF;
+}
+
+/* latin-ext */
+@font-face {
+  font-family: 'Roboto Mono';
+  font-style: italic;
+  font-weight: 100;
+  font-display: swap;
+  src: url('//cdn.shopify.com/s/files/1/0515/5785/9489/t/105/assets/Roboto-Mono-Italic-LatinExt.woff2?v=60343906382863788791657269251') format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Roboto Mono';
+  font-style: italic;
+  font-weight: 100;
+  font-display: swap;
+  src: url('//cdn.shopify.com/s/files/1/0515/5785/9489/t/105/assets/Roboto-Mono-Italic-Latin.woff2?v=311291850833393811657269273') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* greek */
+@font-face {
+  font-family: 'Roboto Mono';
+  font-style: italic;
+  font-weight: 200;
+  font-display: swap;
+  src: url('//cdn.shopify.com/s/files/1/0515/5785/9489/t/105/assets/Roboto-Mono-Italic-Greek.woff2?v=69783286364928721491657269300') format('woff2');
+  unicode-range: U+0370-03FF;
+}
+
+/* latin-ext */
+@font-face {
+  font-family: 'Roboto Mono';
+  font-style: italic;
+  font-weight: 200;
+  font-display: swap;
+  src: url('//cdn.shopify.com/s/files/1/0515/5785/9489/t/105/assets/Roboto-Mono-Italic-LatinExt.woff2?v=60343906382863788791657269251') format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Roboto Mono';
+  font-style: italic;
+  font-weight: 200;
+  font-display: swap;
+  src: url('//cdn.shopify.com/s/files/1/0515/5785/9489/t/105/assets/Roboto-Mono-Italic-Latin.woff2?v=311291850833393811657269273') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* greek */
+@font-face {
+  font-family: 'Roboto Mono';
+  font-style: italic;
+  font-weight: 300;
+  font-display: swap;
+  src: url('//cdn.shopify.com/s/files/1/0515/5785/9489/t/105/assets/Roboto-Mono-Italic-Greek.woff2?v=69783286364928721491657269300') format('woff2');
+  unicode-range: U+0370-03FF;
+}
+
+/* latin-ext */
+@font-face {
+  font-family: 'Roboto Mono';
+  font-style: italic;
+  font-weight: 300;
+  font-display: swap;
+  src: url('//cdn.shopify.com/s/files/1/0515/5785/9489/t/105/assets/Roboto-Mono-Italic-LatinExt.woff2?v=60343906382863788791657269251') format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Roboto Mono';
+  font-style: italic;
+  font-weight: 300;
+  font-display: swap;
+  src: url('//cdn.shopify.com/s/files/1/0515/5785/9489/t/105/assets/Roboto-Mono-Italic-Latin.woff2?v=311291850833393811657269273') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* greek */
+@font-face {
+  font-family: 'Roboto Mono';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url('//cdn.shopify.com/s/files/1/0515/5785/9489/t/105/assets/Roboto-Mono-Italic-Greek.woff2?v=69783286364928721491657269300') format('woff2');
+  unicode-range: U+0370-03FF;
+}
+
+/* latin-ext */
+@font-face {
+  font-family: 'Roboto Mono';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url('//cdn.shopify.com/s/files/1/0515/5785/9489/t/105/assets/Roboto-Mono-Italic-LatinExt.woff2?v=60343906382863788791657269251') format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Roboto Mono';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url('//cdn.shopify.com/s/files/1/0515/5785/9489/t/105/assets/Roboto-Mono-Italic-Latin.woff2?v=311291850833393811657269273') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* greek */
+@font-face {
+  font-family: 'Roboto Mono';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url('//cdn.shopify.com/s/files/1/0515/5785/9489/t/105/assets/Roboto-Mono-Italic-Greek.woff2?v=69783286364928721491657269300') format('woff2');
+  unicode-range: U+0370-03FF;
+}
+
+/* latin-ext */
+@font-face {
+  font-family: 'Roboto Mono';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url('//cdn.shopify.com/s/files/1/0515/5785/9489/t/105/assets/Roboto-Mono-Italic-LatinExt.woff2?v=60343906382863788791657269251') format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Roboto Mono';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url('//cdn.shopify.com/s/files/1/0515/5785/9489/t/105/assets/Roboto-Mono-Italic-Latin.woff2?v=311291850833393811657269273') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* greek */
+@font-face {
+  font-family: 'Roboto Mono';
+  font-style: italic;
+  font-weight: 600;
+  font-display: swap;
+  src: url('//cdn.shopify.com/s/files/1/0515/5785/9489/t/105/assets/Roboto-Mono-Italic-Greek.woff2?v=69783286364928721491657269300') format('woff2');
+  unicode-range: U+0370-03FF;
+}
+
+/* latin-ext */
+@font-face {
+  font-family: 'Roboto Mono';
+  font-style: italic;
+  font-weight: 600;
+  font-display: swap;
+  src: url('//cdn.shopify.com/s/files/1/0515/5785/9489/t/105/assets/Roboto-Mono-Italic-LatinExt.woff2?v=60343906382863788791657269251') format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Roboto Mono';
+  font-style: italic;
+  font-weight: 600;
+  font-display: swap;
+  src: url('//cdn.shopify.com/s/files/1/0515/5785/9489/t/105/assets/Roboto-Mono-Italic-Latin.woff2?v=311291850833393811657269273') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* greek */
+@font-face {
+  font-family: 'Roboto Mono';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url('//cdn.shopify.com/s/files/1/0515/5785/9489/t/105/assets/Roboto-Mono-Italic-Greek.woff2?v=69783286364928721491657269300') format('woff2');
+  unicode-range: U+0370-03FF;
+}
+
+/* latin-ext */
+@font-face {
+  font-family: 'Roboto Mono';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url('//cdn.shopify.com/s/files/1/0515/5785/9489/t/105/assets/Roboto-Mono-Italic-LatinExt.woff2?v=60343906382863788791657269251') format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Roboto Mono';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url('//cdn.shopify.com/s/files/1/0515/5785/9489/t/105/assets/Roboto-Mono-Italic-Latin.woff2?v=311291850833393811657269273') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* greek */
+@font-face {
+  font-family: 'Roboto Mono';
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url('//cdn.shopify.com/s/files/1/0515/5785/9489/t/105/assets/Roboto-Mono-Greek.woff2?v=19625272685989312111657269332') format('woff2');
+  unicode-range: U+0370-03FF;
+}
+
+/* latin-ext */
+@font-face {
+  font-family: 'Roboto Mono';
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url('//cdn.shopify.com/s/files/1/0515/5785/9489/t/105/assets/Roboto-Mono-LatinExt.woff2?v=182724519772207254361657269191') format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Roboto Mono';
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url('//cdn.shopify.com/s/files/1/0515/5785/9489/t/105/assets/Roboto-Mono-Latin.woff2?v=128974925810720699041657269220') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* greek */
+@font-face {
+  font-family: 'Roboto Mono';
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url('//cdn.shopify.com/s/files/1/0515/5785/9489/t/105/assets/Roboto-Mono-Greek.woff2?v=19625272685989312111657269332') format('woff2');
+  unicode-range: U+0370-03FF;
+}
+
+/* latin-ext */
+@font-face {
+  font-family: 'Roboto Mono';
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url('//cdn.shopify.com/s/files/1/0515/5785/9489/t/105/assets/Roboto-Mono-LatinExt.woff2?v=182724519772207254361657269191') format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Roboto Mono';
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url('//cdn.shopify.com/s/files/1/0515/5785/9489/t/105/assets/Roboto-Mono-Latin.woff2?v=128974925810720699041657269220') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* greek */
+@font-face {
+  font-family: 'Roboto Mono';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url('//cdn.shopify.com/s/files/1/0515/5785/9489/t/105/assets/Roboto-Mono-Greek.woff2?v=19625272685989312111657269332') format('woff2');
+  unicode-range: U+0370-03FF;
+}
+
+/* latin-ext */
+@font-face {
+  font-family: 'Roboto Mono';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url('//cdn.shopify.com/s/files/1/0515/5785/9489/t/105/assets/Roboto-Mono-LatinExt.woff2?v=182724519772207254361657269191') format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Roboto Mono';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url('//cdn.shopify.com/s/files/1/0515/5785/9489/t/105/assets/Roboto-Mono-Latin.woff2?v=128974925810720699041657269220') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* greek */
+@font-face {
+  font-family: 'Roboto Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('//cdn.shopify.com/s/files/1/0515/5785/9489/t/105/assets/Roboto-Mono-Greek.woff2?v=19625272685989312111657269332') format('woff2');
+  unicode-range: U+0370-03FF;
+}
+
+/* latin-ext */
+@font-face {
+  font-family: 'Roboto Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('//cdn.shopify.com/s/files/1/0515/5785/9489/t/105/assets/Roboto-Mono-LatinExt.woff2?v=182724519772207254361657269191') format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Roboto Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('//cdn.shopify.com/s/files/1/0515/5785/9489/t/105/assets/Roboto-Mono-Latin.woff2?v=128974925810720699041657269220') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* greek */
+@font-face {
+  font-family: 'Roboto Mono';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('//cdn.shopify.com/s/files/1/0515/5785/9489/t/105/assets/Roboto-Mono-Greek.woff2?v=19625272685989312111657269332') format('woff2');
+  unicode-range: U+0370-03FF;
+}
+
+/* latin-ext */
+@font-face {
+  font-family: 'Roboto Mono';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('//cdn.shopify.com/s/files/1/0515/5785/9489/t/105/assets/Roboto-Mono-LatinExt.woff2?v=182724519772207254361657269191') format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Roboto Mono';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('//cdn.shopify.com/s/files/1/0515/5785/9489/t/105/assets/Roboto-Mono-Latin.woff2?v=128974925810720699041657269220') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* greek */
+@font-face {
+  font-family: 'Roboto Mono';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url('//cdn.shopify.com/s/files/1/0515/5785/9489/t/105/assets/Roboto-Mono-Greek.woff2?v=19625272685989312111657269332') format('woff2');
+  unicode-range: U+0370-03FF;
+}
+
+/* latin-ext */
+@font-face {
+  font-family: 'Roboto Mono';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url('//cdn.shopify.com/s/files/1/0515/5785/9489/t/105/assets/Roboto-Mono-LatinExt.woff2?v=182724519772207254361657269191') format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Roboto Mono';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url('//cdn.shopify.com/s/files/1/0515/5785/9489/t/105/assets/Roboto-Mono-Latin.woff2?v=128974925810720699041657269220') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* greek */
+@font-face {
+  font-family: 'Roboto Mono';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('//cdn.shopify.com/s/files/1/0515/5785/9489/t/105/assets/Roboto-Mono-Greek.woff2?v=19625272685989312111657269332') format('woff2');
+  unicode-range: U+0370-03FF;
+}
+
+/* latin-ext */
+@font-face {
+  font-family: 'Roboto Mono';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('//cdn.shopify.com/s/files/1/0515/5785/9489/t/105/assets/Roboto-Mono-LatinExt.woff2?v=182724519772207254361657269191') format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Roboto Mono';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('//cdn.shopify.com/s/files/1/0515/5785/9489/t/105/assets/Roboto-Mono-Latin.woff2?v=128974925810720699041657269220') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* fonts Roboto ital */
+
+/* greek-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 100;
+  font-display: swap;
+  src: url('//cdn.shopify.com/s/files/1/0515/5785/9489/t/105/assets/Roboto-Italic-Greek-Ext-Thin.woff2?v=72663651211178376391657270193') format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 100;
+  font-display: swap;
+  src: url('//cdn.shopify.com/s/files/1/0515/5785/9489/t/105/assets/Roboto-Italic-Greek-Thin.woff2?v=129245459799341095201657270107') format('woff2');
+  unicode-range: U+0370-03FF;
+}
+
+/* latin-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 100;
+  font-display: swap;
+  src: url('//cdn.shopify.com/s/files/1/0515/5785/9489/t/105/assets/Roboto-Italic-LatinExt-Thin.woff2?v=24410679263629812411657269769') format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 100;
+  font-display: swap;
+  src: url('//cdn.shopify.com/s/files/1/0515/5785/9489/t/105/assets/Roboto-Italic-Latin-Thin.woff2?v=107045389523305772471657269895') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* greek-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 300;
+  font-display: swap;
+  src: url('//cdn.shopify.com/s/files/1/0515/5785/9489/t/105/assets/Roboto-Italic-GreekExt-Light.woff2?v=98550555350520161871657270045') format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 300;
+  font-display: swap;
+  src: url('//cdn.shopify.com/s/files/1/0515/5785/9489/t/105/assets/Roboto-Italic-Greek-Light.woff2?v=45800920389659719451657270163') format('woff2');
+  unicode-range: U+0370-03FF;
+}
+
+/* latin-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 300;
+  font-display: swap;
+  src: url('//cdn.shopify.com/s/files/1/0515/5785/9489/t/105/assets/Roboto-Italic-LatinExt-Light.woff2?v=116100452208905511811657269833') format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 300;
+  font-display: swap;
+  src: url('//cdn.shopify.com/s/files/1/0515/5785/9489/t/105/assets/Roboto-Italic-Latin-Light.woff2?v=181920791399638206711657269948') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* greek-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url('//cdn.shopify.com/s/files/1/0515/5785/9489/t/105/assets/Roboto-Italic-GreekExt-Regular.woff2?v=164355856459198085981657270010') format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url('//cdn.shopify.com/s/files/1/0515/5785/9489/t/105/assets/Roboto-Italic-Greek-Regular.woff2?v=75096361295602021581657270124') format('woff2');
+  unicode-range: U+0370-03FF;
+}
+
+/* latin-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url('//cdn.shopify.com/s/files/1/0515/5785/9489/t/105/assets/Roboto-Italic-LatinExt-Regular.woff2?v=157986065835222091051657269797') format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url('//cdn.shopify.com/s/files/1/0515/5785/9489/t/105/assets/Roboto-Italic-Latin-Regular.woff2?v=63395151098712216821657269914') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* greek-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url('//cdn.shopify.com/s/files/1/0515/5785/9489/t/105/assets/Roboto-Italic-GreekExt-Medium.woff2?v=25558861269916876611657270027') format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url('//cdn.shopify.com/s/files/1/0515/5785/9489/t/105/assets/Roboto-Italic-Greek-Medium.woff2?v=153572839726900071561657270146') format('woff2');
+  unicode-range: U+0370-03FF;
+}
+
+/* latin-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url('//cdn.shopify.com/s/files/1/0515/5785/9489/t/105/assets/Roboto-Italic-LatinExt-Medium.woff2?v=122739682883144265971657269817') format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url('//cdn.shopify.com/s/files/1/0515/5785/9489/t/105/assets/Roboto-Italic-Latin-Medium.woff2?v=160729233870025602491657269931') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* greek-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url('//cdn.shopify.com/s/files/1/0515/5785/9489/t/105/assets/Roboto-Italic-GreekExt-Bold.woff2?v=106595811231612279871657270064') format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url('//cdn.shopify.com/s/files/1/0515/5785/9489/t/105/assets/Roboto-Italic-Greek-Bold.woff2?v=157793132407052602841657270210') format('woff2');
+  unicode-range: U+0370-03FF;
+}
+
+/* latin-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url('//cdn.shopify.com/s/files/1/0515/5785/9489/t/105/assets/Roboto-Italic-LatinExt-Bold.woff2?v=100491058901589670661657269857') format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url('//cdn.shopify.com/s/files/1/0515/5785/9489/t/105/assets/Roboto-Italic-Latin-Bold.woff2?v=12072645520342799031657269968') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* greek-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 900;
+  font-display: swap;
+  src: url('//cdn.shopify.com/s/files/1/0515/5785/9489/t/105/assets/Roboto-Italic-GreekExt-Black.woff2?v=95520540895353849461657270080') format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 900;
+  font-display: swap;
+  src: url('//cdn.shopify.com/s/files/1/0515/5785/9489/t/105/assets/Roboto-Italic-Greek-Black.woff2?v=5072670610357029941657270227') format('woff2');
+  unicode-range: U+0370-03FF;
+}
+
+/* latin-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 900;
+  font-display: swap;
+  src: url('//cdn.shopify.com/s/files/1/0515/5785/9489/t/105/assets/Roboto-Italic-LatinExt-Black.woff2?v=126502364690088622021657269880') format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 900;
+  font-display: swap;
+  src: url('//cdn.shopify.com/s/files/1/0515/5785/9489/t/105/assets/Roboto-Italic-Latin-Black.woff2?v=94847263749617804131657269995') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* greek-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url('//cdn.shopify.com/s/files/1/0515/5785/9489/t/105/assets/Roboto-GreekExt-Thin.woff2?v=143919785946073232361657270241') format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url('//cdn.shopify.com/s/files/1/0515/5785/9489/t/105/assets/Roboto-Greek-Thin.woff2?v=110541236657063369001657270392') format('woff2');
+  unicode-range: U+0370-03FF;
+}
+
+/* latin-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url('//cdn.shopify.com/s/files/1/0515/5785/9489/t/105/assets/Roboto-LatinExt-Thin.woff2?v=97032400303851923911657269360') format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url('//cdn.shopify.com/s/files/1/0515/5785/9489/t/105/assets/Roboto-Latin-Thin.woff2?v=12542487734113759731657269665') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* greek-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url('//cdn.shopify.com/s/files/1/0515/5785/9489/t/105/assets/Roboto-GreekExt-Light.woff2?v=162802992951333956881657270323') format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url('//cdn.shopify.com/s/files/1/0515/5785/9489/t/105/assets/Roboto-Greek-Light.woff2?v=3880118631915051381657270433') format('woff2');
+  unicode-range: U+0370-03FF;
+}
+
+/* latin-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url('//cdn.shopify.com/s/files/1/0515/5785/9489/t/105/assets/Roboto-LatinExt-Light.woff2?v=7517455973058651011657269399') format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url('//cdn.shopify.com/s/files/1/0515/5785/9489/t/105/assets/Roboto-Latin-Light.woff2?v=34543279089197023151657269708') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* greek-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('//cdn.shopify.com/s/files/1/0515/5785/9489/t/105/assets/Roboto-GreekExt-Medium.woff2?v=12081014747923205281657270267') format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('//cdn.shopify.com/s/files/1/0515/5785/9489/t/105/assets/Roboto-Greek-Medium.woff2?v=8915173534559570261657270410') format('woff2');
+  unicode-range: U+0370-03FF;
+}
+
+/* latin-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('//cdn.shopify.com/s/files/1/0515/5785/9489/t/105/assets/Roboto-LatinExt-Medium.woff2?v=94322418566043896681657269379') format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('//cdn.shopify.com/s/files/1/0515/5785/9489/t/105/assets/Roboto-Latin-Medium.woff2?v=99488714704840907571657269684') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* greek-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('//cdn.shopify.com/s/files/1/0515/5785/9489/t/105/assets/Roboto-GreekExt-Bold.woff2?v=149139525572083943141657270344') format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('//cdn.shopify.com/s/files/1/0515/5785/9489/t/105/assets/Roboto-Greek-Bold.woff2?v=154550537434471788191657270448') format('woff2');
+  unicode-range: U+0370-03FF;
+}
+
+/* latin-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('//cdn.shopify.com/s/files/1/0515/5785/9489/t/105/assets/Roboto-LatinExt-Bold.woff2?v=166279508256902614671657269424') format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('//cdn.shopify.com/s/files/1/0515/5785/9489/t/105/assets/Roboto-Latin-Bold.woff2?v=158850229941636173651657269726') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* greek-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url('//cdn.shopify.com/s/files/1/0515/5785/9489/t/105/assets/Roboto-GreekExt-Black.woff2?v=135458807970555757991657270376') format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url('//cdn.shopify.com/s/files/1/0515/5785/9489/t/105/assets/Roboto-Greek-Black.woff2?v=64882193664368288861657270464') format('woff2');
+  unicode-range: U+0370-03FF;
+}
+
+/* latin-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url('//cdn.shopify.com/s/files/1/0515/5785/9489/t/105/assets/Roboto-LatinExt-Black.woff2?v=15824626844995492481657269641') format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url('//cdn.shopify.com/s/files/1/0515/5785/9489/t/105/assets/Roboto-Latin-Black.woff2?v=177893469219494296291657269747') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
